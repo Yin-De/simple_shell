@@ -1,5 +1,4 @@
 #include "shell.h"
-
 void _eputs(char *str)
 {
 	int i = 0;
@@ -12,7 +11,6 @@ void _eputs(char *str)
 		i++;
 	}
 }
-
 int _eputchar(char c)
 {
 	static int i;
@@ -27,7 +25,6 @@ int _eputchar(char c)
 		buf[i++] = c;
 	return (1);
 }
-
 int _putfd(char c, int fd)
 {
 	static int i;
